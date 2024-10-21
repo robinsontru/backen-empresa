@@ -2,9 +2,6 @@ import { Sequelize } from "sequelize";
 import dotenv from 'dotenv';
 dotenv.config();
 
-
-
-
 export const sequelize = new Sequelize({
   database: process.env.DB_NAME,
   username: process.env.DB_USER,
@@ -14,5 +11,5 @@ export const sequelize = new Sequelize({
   dialectOptions: {
     ssl: true,
   },
-  logging: false, 
+  logging: false,
 });
