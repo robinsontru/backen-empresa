@@ -6,7 +6,7 @@ const port= process.env.PORT ||3001
 
 async function main() {
     try {
-        await sequelize.sync({ force: false });
+        await sequelize.sync({ force: true });
         app.listen(port);
         console.log('el sistema esta escuchando el puerto http://localhost:3001/');
     } catch (error) {

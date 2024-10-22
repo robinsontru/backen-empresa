@@ -19,6 +19,8 @@ export async function postlibro(req, res) {
         res.status(200).json({ menssage: 'Creado correctamente' })
 
     } catch (error) {
+    console.log(error);
+            
         res.status(500).json({ menssage: error.message })
 
     }

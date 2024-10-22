@@ -8,8 +8,7 @@ import cors from 'cors'
 
 
 app.use(cors({
-      origin: ['https://fronted-empresa.onrender.com'],
-    // origin: ['http://localhost:3000'],
+    origin: ['http://ruta de el frontend'],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true

@@ -1,3 +1,11 @@
+// import { Sequelize } from "sequelize";
+
+// export const sequelize = new Sequelize('prueba12', 'postgres', 'root', {
+//     host: 'localhost',
+//     dialect:"postgres",
+//   });
+
+
 import { Sequelize } from "sequelize";
 import dotenv from 'dotenv';
 dotenv.config();
